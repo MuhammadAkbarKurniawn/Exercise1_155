@@ -32,18 +32,14 @@ header h2 {
 
 #about {
     padding: 20px;
-}
-
-#about p {
-    margin-bottom: 10px;
-    border: 1px solid #ddd; /* Tambahkan border pada paragraf */
-    padding: 5px; /* Tambahkan padding pada paragraf */
-    border-radius: 4px; /* Mengotakkan sudut semua sisi paragraf */
+    border: 2px solid white; /* Tambahkan border pada section about */
+    border-radius: 10px; /* Mengotakkan sudut section about */
 }
 
 #about h3 {
     margin-top: 10px;
 }
+
 
 #profile-image {
     text-align: center;
