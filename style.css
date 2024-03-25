@@ -1,6 +1,6 @@
 body {
-    background-color: aqua;
-    border: 5px solid #388e3c;
+    background-color: #e6e2d3; /* Warna putih kekuning-kuningan */
+    border: 5px solid #7d5a50; /* Warna coklat muda */
     text-align: center;
     min-height: 100vh;
     margin: 0;
@@ -9,10 +9,10 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #b19d8e; /* Warna coklat muda */
     color: white;
     padding: 20px;
-    border-bottom: 2px solid #388e3c; /* Tambahkan border bawah pada header */
+    border-bottom: 2px solid #7d5a50; /* Warna coklat muda */
     border-radius: 10px 10px 0 0; /* Mengotakkan sudut atas header */
 }
 
@@ -32,14 +32,15 @@ header h2 {
 
 #about {
     padding: 20px;
-    border: 2px solid white; /* Tambahkan border pada section about */
+    border: 2px solid #b19d8e; /* Warna coklat muda */
     border-radius: 10px; /* Mengotakkan sudut section about */
+    width: 500px;
+    margin: auto;
 }
 
 #about h3 {
     margin-top: 10px;
 }
-
 
 #profile-image {
     text-align: center;
@@ -47,8 +48,8 @@ header h2 {
 }
 
 #profile-image img {
-    max-width: 50%;
-    border: 2px solid #388e3c;
+    max-width: 20%;
+    border: 2px solid #7d5a50; /* Warna coklat muda */
     border-radius: 4px;
 }
 
@@ -58,18 +59,18 @@ header h2 {
 }
 
 #action button {
-    background-color: #4CAF50;
+    background-color: #b19d8e; /* Warna coklat muda */
     color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
-    border-top: 2px solid #388e3c;
-    border-left: 2px solid #388e3c;
+    border-top: 2px solid #7d5a50; /* Warna coklat muda */
+    border-left: 2px solid #7d5a50; /* Warna coklat muda */
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 #action button:hover {
-    background-color: #45a049;
+    background-color: #a3856a; /* Warna coklat muda gelap */
 }
