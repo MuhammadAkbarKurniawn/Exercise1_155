@@ -1,33 +1,81 @@
 body {
-    justify-content: center;
-    align-items: center;
+    background-color: aqua;
+    border: 5px solid #388e3c;
+    text-align: center;
     min-height: 100vh;
     margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-top: 0;
+  }
+  
+  header h2 {
+    margin-bottom: 0;
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  #about img {
+    max-width: 50%;
+    border: 2px solid #388e3c;
+    border-radius: 4px;
+  }
+  
+  #about p {
+    margin-bottom: 10px;
+  }
+  
+  #about h3 {
+    margin-top: 10px;
+  }
+  
+  #about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #about ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px;
+  }
+  
+  #action {
     text-align: center;
-    background-color: aqua;
-    border: 5px solid #388e3c; /* Tambahkan border pada body */
-}
-
-img {
-    max-width: 50%; /* Kecilkan ukuran gambar */
-    border: 2px solid #388e3c; /* Tambahkan border pada gambar */
-}
-
-/* CSS untuk mempercantik tombol */
-button {
-    background-color: #4CAF50; /* Warna latar belakang */
-    color: white; /* Warna teks */
-    padding: 10px 20px; /* Padding (jarak) di dalam tombol */
-    font-size: 16px; /* Ukuran font */
-    border: none; /* Hapus border */
-    border-top: 2px solid #388e3c; /* Tambahkan border atas */
-    border-left: 2px solid #388e3c; /* Tambahkan border samping kiri */
-    border-radius: 4px; /* Membuat sudut-sudut menjadi sedikit melengkung */
-    cursor: pointer; /* Ubah kursor menjadi tangan saat diarahkan ke tombol */
-    transition: background-color 0.3s; /* Efek transisi saat tombol dihover */
-}
-
-/* CSS saat tombol dihover */
-button:hover {
-    background-color: #45a049; /* Ubah warna latar belakang saat dihover */
-}
+    margin-top: 20px;
+  }
+  
+  #action button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-top: 2px solid #388e3c;
+    border-left: 2px solid #388e3c;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #action button:hover {
+    background-color: #45a049;
+  }
+  
