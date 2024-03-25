@@ -5,64 +5,63 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: sans-serif;
-  }
-  
-  header {
+    border-radius: 10px; /* Mengotakkan semua sisi body */
+}
+
+header {
     background-color: #4CAF50;
     color: white;
     padding: 20px;
-  }
-  
-  header h1 {
+    border-bottom: 2px solid #388e3c; /* Tambahkan border bawah pada header */
+    border-radius: 10px 10px 0 0; /* Mengotakkan sudut atas header */
+}
+
+header h1 {
     margin-top: 0;
-  }
-  
-  header h2 {
+    border: 2px solid white; /* Tambahkan border pada judul */
+    padding: 10px; /* Tambahkan padding untuk memperindah tampilan */
+    border-radius: 10px; /* Mengotakkan sudut judul */
+}
+
+header h2 {
     margin-bottom: 0;
-  }
-  
-  #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    border: 2px solid white; /* Tambahkan border pada judul */
+    padding: 10px; /* Tambahkan padding untuk memperindah tampilan */
+    border-radius: 10px; /* Mengotakkan sudut judul */
+}
+
+#about {
     padding: 20px;
-  }
-  
-  #about img {
+}
+
+#about p {
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Tambahkan border pada paragraf */
+    padding: 5px; /* Tambahkan padding pada paragraf */
+    border-radius: 4px; /* Mengotakkan sudut semua sisi paragraf */
+}
+
+#about h3 {
+    margin-top: 10px;
+}
+
+#profile-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#profile-image img {
     max-width: 50%;
     border: 2px solid #388e3c;
     border-radius: 4px;
-  }
-  
-  #about p {
-    margin-bottom: 10px;
-  }
-  
-  #about h3 {
-    margin-top: 10px;
-  }
-  
-  #about ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #about ul li {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 5px;
-  }
-  
-  #action {
+}
+
+#action {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  #action button {
+}
+
+#action button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -73,9 +72,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  #action button:hover {
+}
+
+#action button:hover {
     background-color: #45a049;
-  }
-  
+}
