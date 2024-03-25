@@ -1,0 +1,33 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid #388e3c; /* Tambahkan border pada body */
+}
+
+img {
+    max-width: 50%; /* Kecilkan ukuran gambar */
+    border: 2px solid #388e3c; /* Tambahkan border pada gambar */
+}
+
+/* CSS untuk mempercantik tombol */
+button {
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Padding (jarak) di dalam tombol */
+    font-size: 16px; /* Ukuran font */
+    border: none; /* Hapus border */
+    border-top: 2px solid #388e3c; /* Tambahkan border atas */
+    border-left: 2px solid #388e3c; /* Tambahkan border samping kiri */
+    border-radius: 4px; /* Membuat sudut-sudut menjadi sedikit melengkung */
+    cursor: pointer; /* Ubah kursor menjadi tangan saat diarahkan ke tombol */
+    transition: background-color 0.3s; /* Efek transisi saat tombol dihover */
+}
+
+/* CSS saat tombol dihover */
+button:hover {
+    background-color: #45a049; /* Ubah warna latar belakang saat dihover */
+}
