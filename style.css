@@ -8,34 +8,22 @@ body {
     border-radius: 10px; /* Mengotakkan semua sisi body */
 }
 
-header {
-    background-color: #b19d8e; /* Warna coklat muda */
-    color: white;
-    padding: 20px;
-    border-bottom: 2px solid #7d5a50; /* Warna coklat muda */
-    border-radius: 10px 10px 0 0; /* Mengotakkan sudut atas header */
-}
-
-header h1 {
-    margin-top: 0;
+h1 {
+    margin-top: 20px; /* Jarak dari atas */
     border: 2px solid white; /* Tambahkan border pada judul */
     padding: 10px; /* Tambahkan padding untuk memperindah tampilan */
     border-radius: 10px; /* Mengotakkan sudut judul */
-}
-
-header h2 {
-    margin-bottom: 0;
-    border: 2px solid white; /* Tambahkan border pada judul */
-    padding: 10px; /* Tambahkan padding untuk memperindah tampilan */
-    border-radius: 10px; /* Mengotakkan sudut judul */
+    width: 500px;
+    margin: auto;
 }
 
 #about {
     padding: 20px;
     border: 2px solid #b19d8e; /* Warna coklat muda */
     border-radius: 10px; /* Mengotakkan sudut section about */
-    width: 500px;
+    width: 700px;
     margin: auto;
+    margin-top: 20px; /* Jarak dari atas */
 }
 
 #about h3 {
@@ -51,6 +39,7 @@ header h2 {
     max-width: 20%;
     border: 2px solid #7d5a50; /* Warna coklat muda */
     border-radius: 4px;
+    margin-top: 20px; /* Jarak dari atas */
 }
 
 #action {
